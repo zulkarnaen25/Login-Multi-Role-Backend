@@ -1,7 +1,6 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -12,12 +11,33 @@
   "license": "ISC",
   "dependencies": {
     "argon2": "^0.28.7",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "canvas": "^2.10.0",
     "connect-session-sequelize": "^7.1.4",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
     "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "jimp": "^0.22.10",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
     "mysql2": "^2.3.3",
+    "mysql2-promise": "^0.1.4",
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.3",
     "sequelize": "^6.21.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "description": ""
 }
